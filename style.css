@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    background-color:aliceblue;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.navbar-container{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center
+}
+
+.navbar-button{
+    display: flex;
+    width: 20%;
+}
+
+.navbar-icon{
+    width: 50px;
+    height: 25px;
+}
+
+.button-text{
+    font-size: 20px;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-mane{
+    display: flex;
+    justify-content: space-around
+}
+
+.card-box{
+    display: flex;
+}
+
+.card-header{
+    display: flex;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.card-image{
+    height: 750px;
+    width: 500px;
+    margin-right: 100px;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.pgraph{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
